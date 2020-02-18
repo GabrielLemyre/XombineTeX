@@ -1,0 +1,60 @@
+\documentclass[12pt,letterpaper]{article}
+%\long\def\path{/Users/TheMatrix/Documents/GitHub} % Path to the external style files
+\long\def\path{/Users/gabriellemyre/Documents/GitHub} % Path to the external style files
+% —————————————————————————————————————————————————
+\usepackage{\path/Memoire_Maitrise/Memoire_Shortcuts} % Inputs the front page, top banner format and other userdefined macros
+\bibliography{\path/Revue_Litterature/Research_Bibliographie}
+% —————————————————————————————————————————————————
+\begin{document}
+% —————————————————————————————————————————————————
+% //////////////////////////////////////////////////////////////////////////////////////////////
+% REPORT STARTS HERE ——————————————————————————————————————
+% \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+% —————————————————————————————————————————————————
+%\chapter{Modèles de Makov à variables latentes}
+%<*tag>
+\section{Stylized facts of daily return series and the hidden Markov model}
+\cite{Stylized_Facts_of_Daily_Return_Series_and_the_Hidden_Markov_Model_RYDEN_TERASVIRTA_ASBRINK_1998}\\
+\keywords{Faits stylisés, HMM}
+% —————————————————————————————————————————————————
+ Construit sur le travail de \cite{Some_Properties_of_Absolute_Return_An_Alternative_Measure_of_Risk_GRANGER_DING_1995}, adopte les propriétés temporelles :
+ \begin{itemize}
+ \item[\textbf{TP1}] Returns $\epsilon_t$ are not autocorrelated (except possibly at lag one)
+ \item[\textbf{TP2}] The autocorrelation functions of $\accolade{\abs{\epsilon_t}}$ and $\accolade{\epsilon_t^2}$ decay slowly starting from the first auto-
+correlation, and $\correlation{\epsilon_t^2}{\epsilon_{t+h}^2} < \correlation{\abs{\epsilon_t}}{\abs{\epsilon_{t+h}^2}}$. The decay is much slower than the exponential rate of a stationary AR(1) or ARMA(1, q) model. The autocorrelations remain positive for very long lags,
+ \item[\textbf{TP3}] Autocorrelations of powers of absolute return are highest at power one. This effect is called the Taylor effect,
+ \item[\textbf{TP4}] Les autocorrélation du signe des rendements sont non-significatives.\\
+ \end{itemize}
+
+The distributional properties are as follows:
+\begin{itemize}
+\item[\textbf{DP1}] $\abs{\logR{t}}$ et $\sign{\logR{t}}$ sont indépendants,
+\item[\textbf{DP2}] $\abs{\logR{t}}$ a une moyenne et un écart-type égaux,
+\item[\textbf{DP3}] La distribution marginale de $\abs{\logR{t}}$ est exponentielle.
+\end{itemize}
+
+	\subsection{Contributions}
+The present paper shows that a mixture of normal variables with zero mean can
+generate series with most of the properties Granger and Ding singled out. Alors
+que GD proposait d'utiliser une distribution double-exponentielle, les auteurs
+proposent plutôt d'utiliser une mixture de loi normale dans un contexte de
+modèle à changement de régimes. \\
+
+Ils présentent seulement le HMM univarié et de premier ordre à $d$ états. Ils présentent
+le modèle comme étant
+\begin{align}
+\logR{t} = \somme{i=1}{d}{\id{S_t=i}X_{it}}
+\end{align}
+
+	\subsection{Technical details}
+
+	\subsection{Interesting topics}
+
+	\subsection{Difficulties}
+
+	\subsection{Conclusions}
+
+%</tag>
+% —————————————————————————————————————————————————
+\printbibliography[title={Bibliographie}]
+\end{document}

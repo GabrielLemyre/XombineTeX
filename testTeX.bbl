@@ -1,0 +1,124 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Some_Properties_of_Absolute_Return_An_Alternative_Measure_of_Risk_GRANGER_DING_1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Granger},
+         familyi={G\bibinitperiod},
+         given={Clive},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DZ}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Zhuanxin},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GCDZ1}
+    \strng{fullhash}{GCDZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The expected absolute return belongs to a class of risk measure derived by
+  Luce (1980) from axioms. The paper considers the time series properties of
+  and also the marginal distribution properties, for various properties of
+  Theta. Using a long daily stock index series it is found that the
+  autocorrelations decline slowly for all positive Theta but this "long-memory"
+  property is strongest for Theta = 1, the absolute return. The moments of
+  absolute returns, after removal of a few outliers, suggest that an
+  exponential distribution is appropriate.%
+    }
+    \field{number}{40}
+    \field{pages}{67\bibrangedash 91}
+    \field{title}{Some Properties of Absolute Return: An Alternative Measure of
+  Risk}
+    \verb{url}
+    \verb https://EconPapers.repec.org/RePEc:adr:anecst:y:1995:i:40:p:67-91
+    \endverb
+    \field{journaltitle}{Annals of Economics and Statistics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Stylized_Facts_of_Daily_Return_Series_and_the_Hidden_Markov_Model_RYDEN_TERASVIRTA_ASBRINK_1998}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RT}{%
+         family={Ryd√©n},
+         familyi={R\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Ter√§svirta},
+         familyi={T\bibinitperiod},
+         given={Timo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=√S}{%
+         family={√Ösbrink},
+         familyi={√\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{RTTT√S1}
+    \strng{fullhash}{RTTT√S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    In two recent papers, Granger and Ding (1995a, b) considered long return
+  series that are first differences of logarithmed price series or price
+  indices. They established a set of temporal and distributional properties for
+  such series and suggested that the returns are well characterized by the
+  double exponential distribution. The present paper shows that a mixture of
+  normal variables with zero mean can generate series with most of the
+  properties Granger and Ding singled out. In that case, the temporal
+  higher-order dependence observed in return series may be described by a
+  hidden Markov model. Such a model is estimated for ten subseries of the
+  well-known S&P 500 return series of about 17,000 daily observations. It
+  reproduces the stylized facts of Granger and Ding quite well, but the
+  parameter estimates of the model sometimes vary considerably from one
+  subseries to the next. The implications of these results are discussed.%
+    }
+    \field{issn}{08837252, 10991255}
+    \field{number}{3}
+    \field{pages}{217\bibrangedash 244}
+    \field{title}{Stylized Facts of Daily Return Series and the Hidden Markov
+  Model}
+    \verb{url}
+    \verb http://www.jstor.org/stable/223228
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Applied Econometrics}
+    \field{year}{1998}
+  \endentry
+\enddatalist
+\endinput
